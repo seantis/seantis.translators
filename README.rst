@@ -1,7 +1,7 @@
 Seantis Translators
 ===================
 
-A directory of translators wworking for Zug PD.
+A directory of translators working for Zug PD.
 
 Build Status
 ------------
