@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 name = 'seantis.translators'
 description = (
-    'A directory of translators wworking for Zug PD.'
+    'A directory of translators working for Zug PD.'
 )
 version = '0.1'
 
