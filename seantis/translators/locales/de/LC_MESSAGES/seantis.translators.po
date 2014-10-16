@@ -44,7 +44,7 @@ msgstr "Bank Adresse"
 
 #: ./types/translator.xml
 msgid "Bank Name"
-msgstr "Bank AName"
+msgstr "Bank Name"
 
 #: ./types/translator.xml
 msgid "Birthdate"
@@ -176,7 +176,7 @@ msgstr "Telefon Privat"
 
 #: ./types/translator.xml
 msgid "Qualifications"
-msgstr "Qualifikationen"
+msgstr "Berufliche Qualifikation / Tätigkeit"
 
 #: ./types/translator.xml
 msgid "References by Authorities"
@@ -196,7 +196,7 @@ msgstr "Besondere Hinweise Einsatzmöglichkeiten"
 
 #: ./types/translator.xml
 msgid "Spoken Language(s)"
-msgstr "Sprache Wort"
+msgstr "Sprachen Wort"
 
 #: ./types/translator.xml
 msgid "Town"
@@ -220,7 +220,7 @@ msgstr "Telefon Geschäft"
 
 #: ./types/translator.xml
 msgid "Written Language(s)"
-msgstr "Sprache Schrift"
+msgstr "Sprachen Schrift"
 
 #: ./vocabularies.py:48
 msgid "Yes"

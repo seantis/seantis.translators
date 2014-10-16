@@ -51,7 +51,7 @@
       <required>False</required>
       <title i18n:translate="">Town</title>
     </field>
-    <field name="distance_calculation" type="zope.schema.Decimal">
+    <field name="distance_calculation" type="zope.schema.TextLine">
       <required>False</required>
       <title i18n:translate="">Distance Calculation</title>
     </field>
@@ -122,23 +122,22 @@
       <title i18n:translate="">Native Language(s)</title>
       <description i18n:translate="">One language per line</description>
       <value_type type="zope.schema.TextLine" />
-      <required>True</required>
     </field>
     <field name="spoken_languages" type="zope.schema.List" indexer:searchable="true">
       <title i18n:translate="">Spoken Language(s)</title>
       <description i18n:translate="">One language per line</description>
       <value_type type="zope.schema.TextLine" />
-      <required>True</required>
     </field>
     <field name="written_languages" type="zope.schema.List" indexer:searchable="true">
       <title i18n:translate="">Written Language(s)</title>
       <description i18n:translate="">One language per line</description>
       <value_type type="zope.schema.TextLine" />
-      <required>True</required>
     </field>
-    <field name="qualifications" type="zope.schema.TextLine" indexer:searchable="true">
-      <required>False</required>
+    <field name="qualifications" type="zope.schema.List" indexer:searchable="true">
       <title i18n:translate="">Qualifications</title>
+      <description i18n:translate="">One qualification per line</description>
+      <required>False</required>
+      <value_type type="zope.schema.TextLine" />
     </field>
     <field name="certificate_of_competence" type="zope.schema.TextLine" indexer:searchable="true">
       <required>False</required>
@@ -148,11 +147,11 @@
       <title i18n:translate="">References by Authorities</title>
       <description i18n:translate="">One authority per line</description>
       <value_type type="zope.schema.TextLine" />
-      <required>True</required>
     </field>
     <field name="is_trained_translator" type="zope.schema.Bool">
       <title i18n:translate="">Trained Translator</title>
       <form:widget type="z3c.form.browser.radio.RadioFieldWidget"/>
+      <required>False</required>
     </field>
     <field name="certificates" type="zope.schema.Set">
       <title i18n:translate="">Certificates</title>
@@ -166,7 +165,7 @@
       <title i18n:translate="">Other Certificates</title>
       <description i18n:translate="">One certificate per line</description>
       <value_type type="zope.schema.TextLine" />
-      <required>True</required>
+      <required>False</required>
     </field>
     <field name="notes" type="zope.schema.Text" indexer:searchable="true">
       <title i18n:translate="">Notes</title>
@@ -187,9 +186,6 @@
 
      <!-- The Columns shown in the list -->
     <people:columns>
-      <people:column>
-        <people:item>personnel_number</people:item>
-      </people:column>
       <people:column>
         <people:item>lastname</people:item>
       </people:column>
