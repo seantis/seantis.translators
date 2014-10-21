@@ -1,3 +1,15 @@
+.portaltype-seantis-translators-translator {
+    #formfield-form-widgets-references_by_authorities textarea,
+    #formfield-form-widgets-native_languages textarea,
+    #formfield-form-widgets-spoken_languages textarea,
+    #formfield-form-widgets-written_languages textarea,
+    #formfield-form-widgets-qualifications textarea,
+    #formfield-form-widgets-other_certificates textarea,
+    #formfield-form-widgets-notes textarea {
+        height: 8em;   
+    }
+}
+
 .seantis-translators-translator-list {
     table td:nth-child(5) {
         text-align: right;
