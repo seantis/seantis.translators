@@ -7,4 +7,25 @@ class ITranslator(form.Schema):
 
 
 class Translator(PersonBase):
-    pass
+
+    @property
+    def phone_numbers(self):
+
+        phone_numbers = []
+
+        if self.mobile_phone:
+            phone_numbers.append('<div class="mobile-phone">{}</div>'.format(
+                self.mobile_phone
+            ))
+
+        if self.private_phone:
+            phone_numbers.append('<div class="private-phone">{}</div>'.format(
+                self.private_phone
+            ))
+
+        if self.work_phone:
+            phone_numbers.append('<div class="work-phone">{}</div>'.format(
+                self.work_phone
+            ))
+
+        return u'\n'.join(phone_numbers)

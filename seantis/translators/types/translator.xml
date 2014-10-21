@@ -193,19 +193,16 @@
         <people:item>firstname</people:item>
       </people:column>
       <people:column selectable="true">
-        <people:item>spoken_languages</people:item>
+        <people:item render-options="list_type=ul">spoken_languages</people:item>
       </people:column>
       <people:column selectable="true">
-        <people:item>written_languages</people:item>
+        <people:item render-options="list_type=ul">written_languages</people:item>
       </people:column>
-      <people:column>
-        <people:item>mobile_phone</people:item>
+      <people:column title="Distance" i18n:attributes="title">
+        <people:item>distance_calculation</people:item>
       </people:column>
-      <people:column>
-        <people:item>private_phone</people:item>
-      </people:column>
-      <people:column>
-        <people:item>work_phone</people:item>
+      <people:column title="Phones" i18n:attributes="title">
+        <people:item>phone_numbers</people:item>
       </people:column>
     </people:columns>
 

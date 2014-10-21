@@ -31,4 +31,7 @@
 <!-- Upgrades -->
 <include file="upgrades.zcml" />
 
+<!-- Styles for plonetheme.onegov (if installed) -->
+<include zcml:condition="installed plonetheme.onegov" package=".theme" />
+
 </configure>
