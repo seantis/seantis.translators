@@ -152,7 +152,7 @@ msgstr "OGZH Zertifikat"
 
 #: ./types/translator.xml
 msgid "One authority per line"
-msgstr "Eine Behörte pro Zeile"
+msgstr "Eine Behörde pro Zeile"
 
 #: ./types/translator.xml
 msgid "One certificate per line"
