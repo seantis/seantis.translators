@@ -51,7 +51,7 @@
       <required>False</required>
       <title i18n:translate="">Town</title>
     </field>
-    <field name="distance_calculation" type="zope.schema.Decimal">
+    <field name="calculated_distance" type="zope.schema.Decimal">
       <required>False</required>
       <title i18n:translate="">Calculated Distance</title>
     </field>
@@ -199,7 +199,7 @@
         <people:item render-options="list_type=ul">written_languages</people:item>
       </people:column>
       <people:column title="Distance" i18n:attributes="title">
-        <people:item>distance_calculation</people:item>
+        <people:item render-options="precision=1">calculated_distance</people:item>
       </people:column>
       <people:column title="Phones" i18n:attributes="title">
         <people:item>phone_numbers</people:item>
@@ -216,7 +216,7 @@
         <people:item>address</people:item>
         <people:item>zipcode</people:item>
         <people:item>town</people:item>
-        <people:item>distance_calculation</people:item>
+        <people:item>calculated_distance</people:item>
         <people:item>social_security_number</people:item>
         <people:item>bank_name</people:item>
         <people:item>bank_address</people:item>
