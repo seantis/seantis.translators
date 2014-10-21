@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-21 12:15+0000\n"
+"POT-Creation-Date: 2014-10-21 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,7 @@ msgstr "Eine Sprache pro Zeile"
 
 #: ./types/translator.xml
 msgid "One qualification per line"
-msgstr ""
+msgstr "Eine Qualifikation pro Zeile"
 
 #: ./types/translator.xml
 msgid "Other Certificates"
@@ -180,7 +180,7 @@ msgstr "Personal Nr"
 
 #: ./types/translator.xml
 msgid "Phones"
-msgstr ""
+msgstr "Telefon"
 
 #: ./types/translator.xml
 msgid "Private Phone"
