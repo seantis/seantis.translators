@@ -1,5 +1,10 @@
 .seantis-translators-translator-list {
+    table td:nth-child(5) {
+        text-align: right;
+    }
+}
 
+.seantis-translators-translator-list {
     /* German only for now, but the whole product really is.. if this changes,
     the easiest way would be to translate here in CSS (using body[lang="en"]).
     
