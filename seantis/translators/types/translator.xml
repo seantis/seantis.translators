@@ -51,9 +51,9 @@
       <required>False</required>
       <title i18n:translate="">Town</title>
     </field>
-    <field name="distance_calculation" type="zope.schema.TextLine">
+    <field name="distance_calculation" type="zope.schema.Decimal">
       <required>False</required>
-      <title i18n:translate="">Distance Calculation</title>
+      <title i18n:translate="">Calculated Distance</title>
     </field>
     <field name="social_security_number" type="seantis.plonetools.schemafields.SwissSocialSecurityNumber" indexer:searchable="true">
       <required>False</required>

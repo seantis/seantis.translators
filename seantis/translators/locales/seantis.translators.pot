@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-14 14:09+0000\n"
+"POT-Creation-Date: 2014-10-21 12:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,6 +58,10 @@ msgid "C"
 msgstr ""
 
 #: ./types/translator.xml
+msgid "Calculated Distance"
+msgstr ""
+
+#: ./types/translator.xml
 msgid "Certificate of Competence"
 msgstr ""
 
@@ -74,7 +78,7 @@ msgid "Decision Date"
 msgstr ""
 
 #: ./types/translator.xml
-msgid "Distance Calculation"
+msgid "Distance"
 msgstr ""
 
 #: ./types/translator.xml
@@ -162,6 +166,10 @@ msgid "One language per line"
 msgstr ""
 
 #: ./types/translator.xml
+msgid "One qualification per line"
+msgstr ""
+
+#: ./types/translator.xml
 msgid "Other Certificates"
 msgstr ""
 
@@ -171,6 +179,10 @@ msgstr ""
 
 #: ./types/translator.xml
 msgid "Personnel Number"
+msgstr ""
+
+#: ./types/translator.xml
+msgid "Phones"
 msgstr ""
 
 #: ./types/translator.xml
