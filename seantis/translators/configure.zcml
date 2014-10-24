@@ -34,4 +34,14 @@
 <!-- Styles for plonetheme.onegov (if installed) -->
 <include zcml:condition="installed plonetheme.onegov" package=".theme" />
 
+<!-- Permissions -->
+
+<!-- May view translators (most fields) -->
+<permission id="seantis.translators.view_private_fields" title="Seantis Translators: View Private Fields" />
+<permission id="seantis.translators.write_private_fields" title="Seantis Translators: Write Private Fields" />
+
+<!-- May view translators (all fields) -->
+<permission id="seantis.translators.view_very_private_fields" title="Seantis Translators: View VERY Private Fields" />
+<permission id="seantis.translators.write_very_private_fields" title="Seantis Translators: Write VERY Private Fields" />
+
 </configure>
