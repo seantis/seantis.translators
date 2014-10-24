@@ -2,7 +2,8 @@
 Changelog
 ---------
 
-0.1 (unreleased)
+0.1 (2014-10-24)
 ~~~~~~~~~~~~~~~~
 
-Nothing yet.
+- Initial release.
+  [href]
