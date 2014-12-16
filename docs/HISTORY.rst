@@ -5,6 +5,9 @@ Changelog
 0.2 (unreleased)
 ~~~~~~~~~~~~~~~~
 
+- Fix years limited to 2014+.
+  [href]
+
 - Move all information to the left in the detail view.
   [href]
 

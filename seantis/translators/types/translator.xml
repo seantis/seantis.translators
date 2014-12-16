@@ -28,6 +28,9 @@
     <field name="birthdate" type="zope.schema.Date" security:read-permission="seantis.translators.view_private_fields" security:write-permission="seantis.translators.write_private_fields">
       <required>False</required>
       <title i18n:translate="">Birthdate</title>
+      <form:widget type="plone.formwidget.datetime.z3cform.widget.DateWidget">
+        <years_range>[-100, 100]</years_range>
+      </form:widget>
     </field>
     <field name="nationality" type="zope.schema.TextLine" indexer:searchable="true">
       <required>False</required>
@@ -113,10 +116,16 @@
     <field name="application_date" type="zope.schema.Date" security:read-permission="seantis.translators.view_very_private_fields" security:write-permission="seantis.translators.write_very_private_fields">
       <required>False</required>
       <title i18n:translate="">Application Date</title>
+      <form:widget type="plone.formwidget.datetime.z3cform.widget.DateWidget">
+        <years_range>[-100, 100]</years_range>
+      </form:widget>
     </field>
     <field name="decision_date" type="zope.schema.Date" security:read-permission="seantis.translators.view_very_private_fields" security:write-permission="seantis.translators.write_very_private_fields">
       <required>False</required>
       <title i18n:translate="">Decision Date</title>
+      <form:widget type="plone.formwidget.datetime.z3cform.widget.DateWidget">
+        <years_range>[-100, 100]</years_range>
+      </form:widget>
     </field>
     <field name="native_languages" type="zope.schema.List" indexer:searchable="true">
       <title i18n:translate="">Native Language(s)</title>
