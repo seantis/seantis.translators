@@ -13,11 +13,11 @@
       <required>False</required>
       <title i18n:translate="">Personnel Number</title>
     </field>
-    <field name="firstname" type="zope.schema.TextLine" indexer:searchable="true">
-      <title i18n:translate="">First Name</title>
-    </field>
     <field name="lastname" type="zope.schema.TextLine" indexer:searchable="true">
       <title i18n:translate="">Last Name</title>
+    </field>
+    <field name="firstname" type="zope.schema.TextLine" indexer:searchable="true">
+      <title i18n:translate="">First Name</title>
     </field>
     <field name="gender" type="zope.schema.Choice">
       <required>False</required>
