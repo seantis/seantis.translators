@@ -227,8 +227,6 @@
         <people:item>mobile_phone</people:item>
         <people:item>work_phone</people:item>
         <people:item>fax</people:item>
-    </people:details>
-    <people:details position="right">
         <people:item>availability</people:item>
         <people:item>special_abilities</people:item>
         <people:item>agreed_to_name_publication</people:item>
