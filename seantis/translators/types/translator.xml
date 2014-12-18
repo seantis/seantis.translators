@@ -196,6 +196,9 @@
      <!-- The Columns shown in the list -->
     <people:columns>
       <people:column>
+        <people:item>personnel_number</people:item>
+      </people:column>
+      <people:column>
         <people:item>lastname</people:item>
       </people:column>
       <people:column>

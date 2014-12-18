@@ -5,6 +5,9 @@ Changelog
 0.2 (unreleased)
 ~~~~~~~~~~~~~~~~
 
+- Show personell number in people's list.
+  [href]
+
 - Fix years limited to 2014+.
   [href]
 
