@@ -2,7 +2,7 @@
 Changelog
 ---------
 
-0.3 (unreleased)
+0.3 (2015-01-09)
 ~~~~~~~~~~~~~~~~
 
 - Change global_allow to True. See:
