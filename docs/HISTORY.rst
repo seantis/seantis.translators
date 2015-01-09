@@ -2,6 +2,13 @@
 Changelog
 ---------
 
+0.3 (unreleased)
+~~~~~~~~~~~~~~~~
+
+- Change global_allow to True. See:
+  https://github.com/seantis/seantis.people/issues/32
+  [href]
+
 0.2 (2014-12-18)
 ~~~~~~~~~~~~~~~~
 
