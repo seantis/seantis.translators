@@ -2,7 +2,7 @@
 Changelog
 ---------
 
-0.2 (unreleased)
+0.2 (2014-12-18)
 ~~~~~~~~~~~~~~~~
 
 - Show personell number in people's list.
