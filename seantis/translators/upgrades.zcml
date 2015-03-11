@@ -15,4 +15,12 @@
         profile="seantis.translators:default"
         handler=".upgrades.upgrade_translators_type_info"
     />
+
+    <genericsetup:upgradeStep
+        title="Enable referenceablebehavior."
+        source="1002" destination="1003"
+        profile="seantis.translators:default"
+        handler=".upgrades.enable_referenceablebehavior"
+    />
+
 </configure>

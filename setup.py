@@ -14,6 +14,7 @@ requirements = [
     'Plone>=4.3',
     'plone.api',
     'plone.app.dexterity [grok]',
+    'plone.app.referenceablebehavior',
     'five.grok',
     'seantis.plonetools',
     'seantis.people>=0.21'

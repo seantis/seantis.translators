@@ -5,7 +5,8 @@ Changelog
 0.4 (unreleased)
 ~~~~~~~~~~~~~~~~
 
-Nothing yet.
+- Enable referenceablebehavior on lists and memberships.
+  [jone]
 
 0.3 (2015-01-09)
 ~~~~~~~~~~~~~~~~
