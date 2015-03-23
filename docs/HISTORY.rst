@@ -2,7 +2,7 @@
 Changelog
 ---------
 
-0.4 (unreleased)
+0.4 (2015-03-23)
 ~~~~~~~~~~~~~~~~
 
 - Enable referenceablebehavior on lists and memberships.
