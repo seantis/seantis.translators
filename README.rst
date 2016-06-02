@@ -19,8 +19,8 @@ Coverage
 
 Latests PyPI Release
 --------------------
-.. image:: https://pypip.in/v/seantis.translators/badge.png
-  :target: https://crate.io/packages/seantis.translators
+.. image:: https://img.shields.io/pypi/v/seantis.translators.svg
+  :target: https://pypi.python.org/pypi/seantis.translators
   :alt: Latest PyPI Release
 
 License
