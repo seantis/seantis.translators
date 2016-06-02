@@ -55,3 +55,10 @@ target/
 # Excel Files
 *.xls
 *.xlsx
+
+# Virtualenv
+bin/
+include/
+
+# Pip
+pip-selfcheck.json
