@@ -4,6 +4,8 @@ omit =
     buildout-cache/eggs/*
     parts/*
     eggs/*
+    scripts/*
     */test*
     */test-views/*
     */distutils/__init__.py
+    */upgrades.py
