@@ -2,8 +2,8 @@
 Changelog
 ---------
 
-0.4.1 (2016-10-12)
-~~~~~~~~~~~~~~~~~~
+0.5 (2016-10-12)
+~~~~~~~~~~~~~~~~
 
 - Add a dummy value to permit vocabulary.
   [msom]
