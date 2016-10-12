@@ -8,7 +8,7 @@ name = 'seantis.translators'
 description = (
     'A directory of translators working for Zug PD.'
 )
-version = '0.5'
+version = '0.5.1'
 
 requirements = [
     'Plone>=4.3',
