@@ -5,8 +5,8 @@ Changelog
 0.4.1 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
-Nothing yet.
-
+- Add a dummy value to permit vocabulary.
+  [msom]
 
 0.4 (2015-03-23)
 ~~~~~~~~~~~~~~~~

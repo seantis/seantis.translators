@@ -33,6 +33,7 @@ class PermitVocabulary(object):
             SimpleTerm(value='F', title=_(u'F')),
             SimpleTerm(value='N', title=_(u'N')),
             SimpleTerm(value='S', title=_(u'S')),
+            SimpleTerm(value='-', title=_(u'-')),
         ])
 
 grok.global_utility(
