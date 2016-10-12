@@ -2,7 +2,7 @@
 Changelog
 ---------
 
-0.4.1 (unreleased)
+0.4.1 (2016-10-12)
 ~~~~~~~~~~~~~~~~~~
 
 - Add a dummy value to permit vocabulary.
